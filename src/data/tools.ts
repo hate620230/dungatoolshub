@@ -115,6 +115,7 @@ export const toolCategories: ToolCategory[] = [
       { id: 63, name: "Image Flipper", description: "Flip images horizontally/vertically", slug: "image-flipper" },
       { id: 64, name: "Image to Base64", description: "Convert image to Base64 string", slug: "image-to-base64" },
       { id: 65, name: "Image Color Picker", description: "Pick color from uploaded image", slug: "image-color-picker" },
+      { id: 66, name: "QR Code Generator", description: "Generate QR codes from text or URLs", slug: "qr-code-generator" },
     ],
   },
 ];
