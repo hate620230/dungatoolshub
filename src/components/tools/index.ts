@@ -49,4 +49,5 @@ export const toolComponents: Record<string, ComponentType> = {
   "image-flipper": ImageFlipper,
   "image-to-base64": ImageToBase64,
   "image-color-picker": ImageColorPicker,
+  "qr-code-generator": QrCodeGenerator,
 };
