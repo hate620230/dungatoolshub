@@ -12,6 +12,7 @@ import { PasswordGenerator, Md5Generator, Sha256Generator } from "./SecurityTool
 import { ColorPicker, HexToRgb, RgbToHex } from "./ColorTools";
 import { JsonFormatter, JsonValidator, CssMinifier, JsMinifier } from "./DevTools";
 import { ImageResizer, ImageCompressor, ImageRotator, ImageFlipper, ImageToBase64, ImageColorPicker } from "./ImageTools";
+import QrCodeGenerator from "./QrCodeGenerator";
 
 export const toolComponents: Record<string, ComponentType> = {
   "word-counter": WordCounter,
@@ -48,4 +49,5 @@ export const toolComponents: Record<string, ComponentType> = {
   "image-flipper": ImageFlipper,
   "image-to-base64": ImageToBase64,
   "image-color-picker": ImageColorPicker,
+  "qr-code-generator": QrCodeGenerator,
 };
